@@ -47,6 +47,22 @@ function HomePage() {
   return (
     <div className="container mx-auto px-4 py-8">
       <Hero />
+
+      <div className="text-center mt-10 mb-12">
+        <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+          SEO Analyzer Pro – Instantly Check Your SEO Score for Free
+        </h1>
+        <p className="text-gray-600 max-w-2xl mx-auto">
+          SEO Analyzer Pro is your all-in-one website scanner for SEO, speed, and security.
+          Get actionable results in seconds – no login required.
+        </p>
+
+        <div className="mt-8 space-y-2">
+          <h2 className="text-xl font-semibold text-gray-700">Check Your SEO Score Instantly – No Signup Needed</h2>
+          <h2 className="text-xl font-semibold text-gray-700">Free SEO Audit Reports to Boost Your Google Rankings</h2>
+          <h2 className="text-xl font-semibold text-gray-700">Website Performance, Security & On-Page SEO Insights</h2>
+        </div>
+      </div>
       
       <div className="max-w-3xl mx-auto mt-12">
         {/* Analysis Form */}
